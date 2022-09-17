@@ -86,6 +86,7 @@
 
     ```bash
     htpasswd -c /etc/nginx/.htpasswd exampleuser
+    chown www-data:www-data /etc/nginx/.htpasswd
     ```
 
 8. Change ownership of the html directory to nginx user
